@@ -51,6 +51,3 @@ module lab1_DSH (	input logic 		 reset,
     SevenSegment SevenSeg(s, seg);
 
 endmodule
-
-
-
