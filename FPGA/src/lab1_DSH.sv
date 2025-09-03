@@ -3,10 +3,10 @@
 // September 1, 2025
 // lab1_DSH.sv contains code to interface four SW6 on the UPduino 3.1 with three on-board LEDS and the 7-segment display. lab1_DSH.sv 
 
-module lab1_DSH (	input logic 		reset,
+module lab1_DSH (	input logic 		 reset,
 					input logic		[3:0]s,
 					output logic 	[2:0]led,
-					output logic		[6:0]seg
+					output logic	[6:0]seg
 				);
 				
 	// led[0]
@@ -51,5 +51,6 @@ module lab1_DSH (	input logic 		reset,
     SevenSegment SevenSeg(s, seg);
 
 endmodule
+
 
 
